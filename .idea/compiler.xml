@@ -11,10 +11,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17">
-      <module name="demo-kafka.test" target="17" />
-      <module name="Kafka.demo-kafka" target="17" />
-      <module name="Kafka.demo-kafka.main" target="17" />
-      <module name="Kafka.demo-kafka.test" target="17" />
       <module name="Kafka.discovery-module" target="21" />
       <module name="Kafka.discovery-module.main" target="21" />
       <module name="Kafka.discovery-module.test" target="21" />
@@ -24,14 +20,12 @@
       <module name="Kafka.main-module" target="21" />
       <module name="Kafka.main-module.main" target="21" />
       <module name="Kafka.main-module.test" target="21" />
+      <module name="kafka.test" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-parameters" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Kafka.demo-kafka" options="-parameters" />
-      <module name="Kafka.demo-kafka.main" options="-parameters" />
-      <module name="Kafka.demo-kafka.test" options="-parameters" />
       <module name="Kafka.discovery-module" options="-parameters" />
       <module name="Kafka.discovery-module.main" options="-parameters" />
       <module name="Kafka.discovery-module.test" options="-parameters" />
@@ -41,11 +35,11 @@
       <module name="Kafka.main-module" options="-parameters" />
       <module name="Kafka.main-module.main" options="-parameters" />
       <module name="Kafka.main-module.test" options="-parameters" />
-      <module name="demo-kafka.main" options="-parameters" />
-      <module name="demo-kafka.test" options="-parameters" />
       <module name="discovery" options="-parameters" />
       <module name="discovery.main" options="-parameters" />
       <module name="discovery.test" options="-parameters" />
+      <module name="kafka.main" options="-parameters" />
+      <module name="kafka.test" options="-parameters" />
       <module name="main" options="-parameters" />
       <module name="main.main" options="-parameters" />
       <module name="main.test" options="-parameters" />
