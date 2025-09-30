@@ -11,6 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo-kafka.test" target="17" />
       <module name="Kafka.demo-kafka" target="17" />
       <module name="Kafka.demo-kafka.main" target="17" />
       <module name="Kafka.demo-kafka.test" target="17" />
