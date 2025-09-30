@@ -35,6 +35,11 @@ dependencyManagement {
     }
 }
 
-tasks.named('test') {
-    useJUnitPlatform()
+bootJar {
+    enabled = true
+    archiveFileName = 'discovery-service.jar'
+}
+
+jar {
+    enabled = false
 }

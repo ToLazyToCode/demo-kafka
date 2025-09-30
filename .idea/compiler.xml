@@ -21,6 +21,7 @@
       <module name="Kafka.kafka-module" target="21" />
       <module name="Kafka.kafka-module.main" target="21" />
       <module name="Kafka.kafka-module.test" target="21" />
+      <module name="Kafka.kafka.test" target="17" />
       <module name="Kafka.main-module" target="21" />
       <module name="Kafka.main-module.main" target="21" />
       <module name="Kafka.main-module.test" target="21" />
