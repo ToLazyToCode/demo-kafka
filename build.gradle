@@ -17,6 +17,9 @@ subprojects {
 
     repositories {
         mavenCentral()
+        mavenLocal()  // Local Maven cache
+        maven { url 'https://repo.spring.io/milestone' }  // Spring milestones
+        maven { url 'https://repo.spring.io/snapshot' }   // Spring snapshots
     }
 
     dependencies {
