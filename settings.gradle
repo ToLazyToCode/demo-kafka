@@ -1,3 +1,3 @@
-rootProject.name = 'Kafka'
+rootProject.name = 'DemoKafkaProject'
 
 include 'discovery', 'kafka', 'main'
